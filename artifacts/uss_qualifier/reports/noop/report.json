@@ -1,7 +1,7 @@
 {
-  "codebase_version": "interuss/monitoring/v0.0.0-8d9526c",
-  "commit_hash": "8d9526cd8b6642c8a3ea14384abb2a5037ef735c",
-  "baseline_signature": "47a666cb82a261a3230c0d525d8c5dddf8acd3dac7e30a730906e6b782c52e86",
+  "codebase_version": "interuss/monitoring/v0.0.0-688869b",
+  "commit_hash": "688869bff5f9956e4bbcdb086032f0cda2a89910",
+  "baseline_signature": "535939ec2702256ef4b0454a5a1ccfd07fc40d10e252927e10e247060a013f30",
   "environment_signature": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
   "configuration": {
     "v1": {
@@ -50,14 +50,14 @@
           "redact_access_tokens": true
         },
         "sequence_view": {
-          "render_kml": true,
-          "redact_access_tokens": true
+          "redact_access_tokens": true,
+          "render_kml": true
         },
         "report_html": {
           "redact_access_tokens": true
         },
-        "tested_requirements": null,
-        "templated_reports": null
+        "templated_reports": null,
+        "tested_requirements": null
       },
       "validation": {
         "criteria": [
@@ -108,50 +108,50 @@
       "name": "No-op",
       "suite_type": "<in-configuration definition>",
       "documentation_url": "",
-      "start_time": "2024-08-15T08:36:20.077674Z",
+      "start_time": "2024-08-20T14:57:27.491331Z",
       "actions": [
         {
           "test_scenario": {
             "name": "NoOp",
             "scenario_type": "scenarios.dev.NoOp",
-            "documentation_url": "https://github.com/interuss/monitoring/blob/8d9526cd8b6642c8a3ea14384abb2a5037ef735c/monitoring/uss_qualifier/scenarios/dev/noop.md",
-            "start_time": "2024-08-15T08:36:20.078313Z",
+            "documentation_url": "https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/dev/noop.md",
+            "start_time": "2024-08-20T14:57:27.492006Z",
             "cases": [
               {
                 "name": "Sleep",
-                "documentation_url": "https://github.com/interuss/monitoring/blob/8d9526cd8b6642c8a3ea14384abb2a5037ef735c/monitoring/uss_qualifier/scenarios/dev/noop.md#sleep-test-case",
-                "start_time": "2024-08-15T08:36:20.078973Z",
+                "documentation_url": "https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/dev/noop.md#sleep-test-case",
+                "start_time": "2024-08-20T14:57:27.492678Z",
                 "steps": [
                   {
                     "name": "Sleep",
-                    "documentation_url": "https://github.com/interuss/monitoring/blob/8d9526cd8b6642c8a3ea14384abb2a5037ef735c/monitoring/uss_qualifier/scenarios/dev/noop.md#sleep-test-step",
-                    "start_time": "2024-08-15T08:36:20.079182Z",
+                    "documentation_url": "https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/dev/noop.md#sleep-test-step",
+                    "start_time": "2024-08-20T14:57:27.492895Z",
                     "failed_checks": [],
                     "passed_checks": [],
-                    "end_time": "2024-08-15T08:36:25.080338Z"
+                    "end_time": "2024-08-20T14:57:32.494020Z"
                   }
                 ],
-                "end_time": "2024-08-15T08:36:25.080389Z"
+                "end_time": "2024-08-20T14:57:32.494057Z"
               }
             ],
             "successful": true,
             "notes": {
               "Start time": {
-                "message": "Starting at 2024-08-15T08:36:20.079477+00:00Z, sleeping for 5s...",
-                "timestamp": "2024-08-15T08:36:20.079496Z"
+                "message": "Starting at 2024-08-20T14:57:27.493204+00:00Z, sleeping for 5s...",
+                "timestamp": "2024-08-20T14:57:27.493226Z"
               },
               "End time": {
-                "message": "Ending at 2024-08-15T08:36:25.080006+00:00Z.",
-                "timestamp": "2024-08-15T08:36:25.080057Z"
+                "message": "Ending at 2024-08-20T14:57:32.493696+00:00Z.",
+                "timestamp": "2024-08-20T14:57:32.493753Z"
               }
             },
-            "end_time": "2024-08-15T08:36:25.080441Z"
+            "end_time": "2024-08-20T14:57:32.494104Z"
           }
         }
       ],
       "capability_evaluations": [],
       "successful": true,
-      "end_time": "2024-08-15T08:36:25.081203Z"
+      "end_time": "2024-08-20T14:57:32.494927Z"
     }
   }
 }
