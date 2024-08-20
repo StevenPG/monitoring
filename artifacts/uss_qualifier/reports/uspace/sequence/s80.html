@@ -106,7 +106,7 @@
 </head>
 <body>
 <div>
-    <h2><a href="https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md">ASTM F3411-22a NetRID aggregate checks</a></h2>
+    <h2><a href="https://github.com/interuss/monitoring/blob/a34e29784afe59f729c15c023b5d77a59cc88d48/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md">ASTM F3411-22a NetRID aggregate checks</a></h2>
   <h3>scenarios.astm.netrid.v22a.AggregateChecks</h3>
     <h4>
       <a href="./s80.kml">KML visualization</a>
@@ -122,7 +122,7 @@
     </tr>
 
           <tr id="e1">
-              <td rowspan="5" colspan="2"></td>
+              <td rowspan="4" colspan="2"></td>
             <td><a href="#e1">1</a></td>
             <td>&#x1F4D3;</td>
             <td colspan="2">
@@ -150,148 +150,134 @@
               <code>observer</code>: configured observer: uss1 - http://v22a.riddp.uss1.localutm/riddp/observation
             </td>
           </tr>
-          <tr id="e5">
-            <td><a href="#e5">5</a></td>
-            <td>&#x1F4D3;</td>
-            <td colspan="2">
-              <code>debug_usses</code>: debug mode usses: {&#x27;uss1&#x27;, &#x27;uss2&#x27;}
-            </td>
-          </tr>
-            <tr id="e9">
+            <tr id="e8">
                 <td rowspan="8"><span class="sticky_cell_value">
-                    <a href="https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-display-providers-requests-test-case">Performance of Display Providers requests</a>
+                    <a href="https://github.com/interuss/monitoring/blob/a34e29784afe59f729c15c023b5d77a59cc88d48/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-display-providers-requests-test-case">Performance of Display Providers requests</a>
                 </span></td>
                 <td rowspan="5"><span class="sticky_cell_value">
-                    <a href="https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-/display_data-requests-test-step">Performance of /display_data requests</a>
+                    <a href="https://github.com/interuss/monitoring/blob/a34e29784afe59f729c15c023b5d77a59cc88d48/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-/display_data-requests-test-step">Performance of /display_data requests</a>
                 </span></td>
-              <td><a href="#e9">9</a></td>
+              <td><a href="#e8">8</a></td>
                 <td>&#x2705;</td>
                 <td class="pass_result">
                   Performance of /display_data initial requests
                 </td>
                     <td class="pass_result">&#x2705;</td>
             </tr>
-            <tr id="e10">
-              <td><a href="#e10">10</a></td>
+            <tr id="e9">
+              <td><a href="#e9">9</a></td>
                 <td>&#x2705;</td>
                 <td class="pass_result">
                   Performance of /display_data subsequent requests
                 </td>
                     <td class="pass_result">&#x2705;</td>
             </tr>
+            <tr id="e10">
+              <td><a href="#e10">10</a></td>
+                <td>&#x1F4D3;</td>
+                <td colspan="2">
+                  <code>uss1/display_data</code>: percentiles on 42 relevant queries (24 different URLs, 32 initial queries, 10 subsequent queries): init 95th: 0.121; init 99th: 0.133; subsequent 95th: 0.0834; subsequent 99th: 0.087
+                </td>
+            </tr>
             <tr id="e11">
               <td><a href="#e11">11</a></td>
                 <td>&#x1F4D3;</td>
                 <td colspan="2">
-                  <code>uss1/display_data</code>: percentiles on 42 relevant queries (24 different URLs, 32 initial queries, 10 subsequent queries): init 95th: 0.146; init 99th: 0.158; subsequent 95th: 0.0796; subsequent 99th: 0.0817
+                  <code>uss1/display_data details</code>: Initial durations: [0.018929, 0.050181, 0.005462, 0.029522, 0.127138, 0.040602, 0.112532, 0.046867, 0.117953, 0.054222, 0.071076, 0.060799, 0.070226, 0.0676, 0.071028, 0.071411, 0.082265, 0.07077, 0.073409, 0.072072, 0.067542, 0.069203, 0.050457, 0.047663, 0.043393, 0.04473, 0.036035, 0.034153, 0.005023, 0.004864, 0.005381, 0.004889] subsequent durations: [0.070942, 0.070813, 0.071425, 0.063523, 0.05734, 0.079656, 0.068782, 0.068554, 0.061522, 0.05456]
                 </td>
             </tr>
             <tr id="e12">
               <td><a href="#e12">12</a></td>
                 <td>&#x1F4D3;</td>
                 <td colspan="2">
-                  <code>uss1/display_data details</code>: Initial durations: [0.021857, 0.059292, 0.006799, 0.031715, 0.113113, 0.041402, 0.118679, 0.047686, 0.056209, 0.054399, 0.142615, 0.076956, 0.069852, 0.068653, 0.151988, 0.070798, 0.071255, 0.092478, 0.070953, 0.069121, 0.071908, 0.070398, 0.052211, 0.050956, 0.045317, 0.042301, 0.036321, 0.035366, 0.006748, 0.006218, 0.006639, 0.006911] subsequent durations: [0.077467, 0.070736, 0.07136, 0.06269, 0.057981, 0.069461, 0.070209, 0.072738, 0.061673, 0.055819]
-                </td>
-            </tr>
-            <tr id="e13">
-              <td><a href="#e13">13</a></td>
-                <td>&#x1F4D3;</td>
-                <td colspan="2">
                   <code>uss2/display_data</code>: skipped check: no relevant queries
                 </td>
             </tr>
-            <tr id="e16">
+            <tr id="e15">
                 <td rowspan="3"><span class="sticky_cell_value">
-                    <a href="https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-/display_data/<flight_id>-requests-test-step">Performance of /display_data/<flight_id> requests</a>
+                    <a href="https://github.com/interuss/monitoring/blob/a34e29784afe59f729c15c023b5d77a59cc88d48/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-/display_data/<flight_id>-requests-test-step">Performance of /display_data/<flight_id> requests</a>
                 </span></td>
-              <td><a href="#e16">16</a></td>
+              <td><a href="#e15">15</a></td>
                 <td>&#x2705;</td>
                 <td class="pass_result">
                   Performance of /display_data/<flight_id> requests
                 </td>
                     <td class="pass_result">&#x2705;</td>
             </tr>
-            <tr id="e17">
-              <td><a href="#e17">17</a></td>
+            <tr id="e16">
+              <td><a href="#e16">16</a></td>
                 <td>&#x1F4D3;</td>
                 <td colspan="2">
-                  <code>uss1/display_data/&lt;flight_id&gt;</code>: uss1/display_data/&lt;flight_id&gt; stats computed on 1 queries 95th percentile: 0.0282s, 99th percentile: 0.0282s
+                  <code>uss1/display_data/&lt;flight_id&gt;</code>: uss1/display_data/&lt;flight_id&gt; stats computed on 1 queries 95th percentile: 0.0272s, 99th percentile: 0.0272s
                 </td>
             </tr>
-            <tr id="e18">
-              <td><a href="#e18">18</a></td>
+            <tr id="e17">
+              <td><a href="#e17">17</a></td>
                 <td>&#x1F4D3;</td>
                 <td colspan="2">
                   <code>uss2/display_data/&lt;flight_id&gt;</code>: skipped check: no relevant queries
                 </td>
             </tr>
-            <tr id="e21">
+            <tr id="e20">
                 <td rowspan="4"><span class="sticky_cell_value">
-                    <a href="https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-service-providers-requests-test-case">Performance of Service Providers requests</a>
+                    <a href="https://github.com/interuss/monitoring/blob/a34e29784afe59f729c15c023b5d77a59cc88d48/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-service-providers-requests-test-case">Performance of Service Providers requests</a>
                 </span></td>
                 <td rowspan="4"><span class="sticky_cell_value">
-                    <a href="https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-/flights?view-requests-test-step">Performance of /flights?view requests</a>
+                    <a href="https://github.com/interuss/monitoring/blob/a34e29784afe59f729c15c023b5d77a59cc88d48/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#performance-of-/flights?view-requests-test-step">Performance of /flights?view requests</a>
                 </span></td>
-              <td><a href="#e21">21</a></td>
+              <td><a href="#e20">20</a></td>
                 <td>&#x2705;</td>
                 <td class="pass_result">
                   95th percentile response time
                 </td>
                     <td class="pass_result">&#x2705;</td>
             </tr>
-            <tr id="e22">
-              <td><a href="#e22">22</a></td>
+            <tr id="e21">
+              <td><a href="#e21">21</a></td>
                 <td>&#x2705;</td>
                 <td class="pass_result">
                   99th percentile response time
                 </td>
                     <td class="pass_result">&#x2705;</td>
             </tr>
-            <tr id="e23">
-              <td><a href="#e23">23</a></td>
+            <tr id="e22">
+              <td><a href="#e22">22</a></td>
                 <td>&#x1F4D3;</td>
                 <td colspan="2">
-                  <code>uss1/flights</code>: percentiles on 36 relevant queries: 95th: 0.022; 99th: 0.0226
+                  <code>uss1/flights</code>: percentiles on 36 relevant queries: 95th: 0.0241; 99th: 0.0276
                 </td>
             </tr>
-            <tr id="e24">
-              <td><a href="#e24">24</a></td>
+            <tr id="e23">
+              <td><a href="#e23">23</a></td>
                 <td>&#x1F4D3;</td>
                 <td colspan="2">
                   <code>uss2/flights</code>: skipped check: no relevant queries
                 </td>
             </tr>
-            <tr id="e28">
-                <td rowspan="3"><span class="sticky_cell_value">
-                    <a href="https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#verify-https-is-in-use-test-case">Verify https is in use</a>
+            <tr id="e26">
+                <td rowspan="2"><span class="sticky_cell_value">
+                    <a href="https://github.com/interuss/monitoring/blob/a34e29784afe59f729c15c023b5d77a59cc88d48/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#verify-https-is-in-use-test-case">Verify https is in use</a>
                 </span></td>
-                <td rowspan="3"><span class="sticky_cell_value">
-                    <a href="https://github.com/interuss/monitoring/blob/688869bff5f9956e4bbcdb086032f0cda2a89910/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#verify-https-is-in-use-test-step">Verify https is in use</a>
+                <td rowspan="2"><span class="sticky_cell_value">
+                    <a href="https://github.com/interuss/monitoring/blob/a34e29784afe59f729c15c023b5d77a59cc88d48/monitoring/uss_qualifier/scenarios/astm/netrid/v22a/aggregate_checks.md#verify-https-is-in-use-test-step">Verify https is in use</a>
                 </span></td>
-              <td><a href="#e28">28</a></td>
+              <td><a href="#e26">26</a></td>
                 <td>&#x1F4D3;</td>
                 <td colspan="2">
-                  <code>https-check</code>: participant uss1 is in local debug mode, skipping HTTPS check
+                  <code>https-check</code>: cleartext queries are allowed by test exclusions, skipping HTTPS check
                 </td>
             </tr>
-            <tr id="e29">
-              <td><a href="#e29">29</a></td>
-                <td>&#x1F4D3;</td>
-                <td colspan="2">
-                  <code>https-check_1</code>: participant uss2 is in local debug mode, skipping HTTPS check
-                </td>
-            </tr>
-            <tr id="e30">
-              <td><a href="#e30">30</a></td>
+            <tr id="e27">
+              <td><a href="#e27">27</a></td>
                 <td>&#x1F4D3;</td>
                 <td colspan="2">
                   <code>unattributed-queries</code>: Found unattributed queries:
-  * POST https://example.interuss.org/uss/identification_service_areas/5599b547-b054-4892-ab80-805c7f9d4d62
-  * POST https://example.interuss.org/uss/identification_service_areas/3d7a0794-f769-463d-a887-87d3d9407393
-  * POST https://example.interuss.org/uss/identification_service_areas/3d7a0794-f769-463d-a887-87d3d9407393
-  * POST https://example.interuss.org/uss/identification_service_areas/2f72b55f-3b3e-42be-8aa9-4b7b93a6a38b
-  * POST https://example.interuss.org/uss/identification_service_areas/020af683-4bf9-4906-8d1b-604b96a3c866
-  * POST https://example.interuss.org/uss/identification_service_areas/020af683-4bf9-4906-8d1b-604b96a3c866
+  * POST https://example.interuss.org/uss/identification_service_areas/e417fb7b-0067-418d-8c8c-9a83beff0087
+  * POST https://example.interuss.org/uss/identification_service_areas/4d6c61c2-2944-4f46-bb52-2f4404beb8a5
+  * POST https://example.interuss.org/uss/identification_service_areas/4d6c61c2-2944-4f46-bb52-2f4404beb8a5
+  * POST https://example.interuss.org/uss/identification_service_areas/a56e8873-7fe6-4f32-947b-fa7c2cdc560b
+  * POST https://example.interuss.org/uss/identification_service_areas/fadb6638-de1e-4be4-826b-b62616c4dcc1
+  * POST https://example.interuss.org/uss/identification_service_areas/fadb6638-de1e-4be4-826b-b62616c4dcc1
   * GET http://v22a.ridsp.uss1.localutm/mock/ridsp/v2/uss/flights?view=46.94729024551317%2C7.447272457011133%2C47.00349994487253%2C7.503482156350528&amp;recent_positions_duration=60
   * GET http://v22a.ridsp.uss1.localutm/mock/ridsp/v2/uss/flights?view=46.949538633487535%2C7.449520844984709%2C47.001251556898154%2C7.501233768376951&amp;recent_positions_duration=60
   * GET http://v22a.ridsp.uss1.localutm/mock/ridsp/v2/uss/flights?view=46.968275199940656%2C7.468257411431174%2C46.98251499044503%2C7.482497201930487&amp;recent_positions_duration=60
