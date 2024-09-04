@@ -1,7 +1,7 @@
 {
-  "codebase_version": "interuss/monitoring/v0.0.0-b41a958",
-  "commit_hash": "b41a95829933d85997056cfd3e875d980e90de65",
-  "baseline_signature": "ee939e61323487ed001e2b12049333f59052b3e478a76af27e11fd47ad4d7781",
+  "codebase_version": "interuss/monitoring/v0.0.0-98740cc",
+  "commit_hash": "98740cc2f3fcdfea8123894d57d2c39f263a83cb",
+  "baseline_signature": "63a3bd19c6062d4de246dff731f3b9671ca256054cb1dcbb710e9c7b76aac55d",
   "environment_signature": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
   "configuration": {
     "v1": {
@@ -108,50 +108,50 @@
       "name": "No-op",
       "suite_type": "<in-configuration definition>",
       "documentation_url": "",
-      "start_time": "2024-09-04T19:56:48.119014Z",
+      "start_time": "2024-09-04T21:58:53.024274Z",
       "actions": [
         {
           "test_scenario": {
             "name": "NoOp",
             "scenario_type": "scenarios.dev.NoOp",
-            "documentation_url": "https://github.com/interuss/monitoring/blob/b41a95829933d85997056cfd3e875d980e90de65/monitoring/uss_qualifier/scenarios/dev/noop.md",
-            "start_time": "2024-09-04T19:56:48.119684Z",
+            "documentation_url": "https://github.com/interuss/monitoring/blob/98740cc2f3fcdfea8123894d57d2c39f263a83cb/monitoring/uss_qualifier/scenarios/dev/noop.md",
+            "start_time": "2024-09-04T21:58:53.024895Z",
             "cases": [
               {
                 "name": "Sleep",
-                "documentation_url": "https://github.com/interuss/monitoring/blob/b41a95829933d85997056cfd3e875d980e90de65/monitoring/uss_qualifier/scenarios/dev/noop.md#sleep-test-case",
-                "start_time": "2024-09-04T19:56:48.120267Z",
+                "documentation_url": "https://github.com/interuss/monitoring/blob/98740cc2f3fcdfea8123894d57d2c39f263a83cb/monitoring/uss_qualifier/scenarios/dev/noop.md#sleep-test-case",
+                "start_time": "2024-09-04T21:58:53.025438Z",
                 "steps": [
                   {
                     "name": "Sleep",
-                    "documentation_url": "https://github.com/interuss/monitoring/blob/b41a95829933d85997056cfd3e875d980e90de65/monitoring/uss_qualifier/scenarios/dev/noop.md#sleep-test-step",
-                    "start_time": "2024-09-04T19:56:48.120480Z",
+                    "documentation_url": "https://github.com/interuss/monitoring/blob/98740cc2f3fcdfea8123894d57d2c39f263a83cb/monitoring/uss_qualifier/scenarios/dev/noop.md#sleep-test-step",
+                    "start_time": "2024-09-04T21:58:53.025653Z",
                     "failed_checks": [],
                     "passed_checks": [],
-                    "end_time": "2024-09-04T19:56:53.121694Z"
+                    "end_time": "2024-09-04T21:58:58.026878Z"
                   }
                 ],
-                "end_time": "2024-09-04T19:56:53.121742Z"
+                "end_time": "2024-09-04T21:58:58.026929Z"
               }
             ],
             "successful": true,
             "notes": {
               "Start time": {
-                "message": "Starting at 2024-09-04T19:56:48.120781+00:00Z, sleeping for 5s...",
-                "timestamp": "2024-09-04T19:56:48.120803Z"
+                "message": "Starting at 2024-09-04T21:58:53.025954+00:00Z, sleeping for 5s...",
+                "timestamp": "2024-09-04T21:58:53.025974Z"
               },
               "End time": {
-                "message": "Ending at 2024-09-04T19:56:53.121310+00:00Z.",
-                "timestamp": "2024-09-04T19:56:53.121382Z"
+                "message": "Ending at 2024-09-04T21:58:58.026507+00:00Z.",
+                "timestamp": "2024-09-04T21:58:58.026569Z"
               }
             },
-            "end_time": "2024-09-04T19:56:53.121783Z"
+            "end_time": "2024-09-04T21:58:58.026971Z"
           }
         }
       ],
       "capability_evaluations": [],
       "successful": true,
-      "end_time": "2024-09-04T19:56:53.122574Z"
+      "end_time": "2024-09-04T21:58:58.027755Z"
     }
   }
 }
