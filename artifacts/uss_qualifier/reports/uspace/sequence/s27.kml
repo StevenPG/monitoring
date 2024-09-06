@@ -131,6 +131,9 @@
           <name>Create subscription validation</name>
         </Folder>
         <Folder>
+          <name>Attempt Subscription mutation with incorrect version</name>
+        </Folder>
+        <Folder>
           <name>Mutate Subscription</name>
         </Folder>
         <Folder>
