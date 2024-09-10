@@ -1,19 +1,19 @@
 {
   "test_run_information": {
-    "test_run_id": "750fbc145ebab7a31b193637b47a5a913d58aa60bc51ffd2cb19ee10dfbbb0b5",
-    "start_time": "2024-09-10 08:53:42 UTC",
-    "end_time": "2024-09-10 08:54:25 UTC",
-    "baseline": "35356860c8fd592d3e75ada2dfa82a78a343f23a2039a41c85ad9d84d4ea090a",
+    "test_run_id": "63454424eb203e9c90c5ceb363143530ef6fada997cd1a7385a0d67bcca1faa1",
+    "start_time": "2024-09-10 14:43:03 UTC",
+    "end_time": "2024-09-10 14:43:46 UTC",
+    "baseline": "2d43036e5a9ac00aa4426550d0db08fa09fee033ff99ac331cc2aaf346a99c3d",
     "environment": "a1999071fb1c63fb6fc5696e98e458e3275817ee3eae307c273c01b43156aed0"
   },
   "participant_verifications": {
     "uss1": {
       "status": "Incomplete",
-      "system_version": "interuss/monitoring/v0.0.0-99dd34f"
+      "system_version": "interuss/monitoring/v0.0.0-ebd59ce"
     },
     "uss2": {
       "status": "Pass",
-      "system_version": "interuss/monitoring/v0.0.0-99dd34f"
+      "system_version": "interuss/monitoring/v0.0.0-ebd59ce"
     }
   },
   "artifact_configuration": "gate3"
