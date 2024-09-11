@@ -1,19 +1,19 @@
 {
   "test_run_information": {
-    "test_run_id": "04229a433f82eec0ac516b4be7295ced157894d372685b58292edac56b7199f9",
-    "start_time": "2024-09-11 17:43:36 UTC",
-    "end_time": "2024-09-11 17:44:18 UTC",
-    "baseline": "b22cb689e44683a0765fa3d5c41acd02a39bc192698b5eb908594517925c7084",
+    "test_run_id": "3b78acd292c8e8cea659a1a2a19af6c35f58a74e342e8109112bc0bfc446329c",
+    "start_time": "2024-09-11 21:45:45 UTC",
+    "end_time": "2024-09-11 21:46:28 UTC",
+    "baseline": "b6919a59108d65e6a0d7b2fe9ff3acfcd2eef5d443f9dd127d45d29b17ab85bf",
     "environment": "662375907e4b2fc7cd118b35118d51a796851a2b4e9c46b6ade6d45792b24ea4"
   },
   "participant_verifications": {
     "uss1": {
       "status": "Incomplete",
-      "system_version": "interuss/monitoring/v0.0.0-b50155e"
+      "system_version": "interuss/monitoring/v0.0.0-b926b65"
     },
     "uss2": {
       "status": "Pass",
-      "system_version": "interuss/monitoring/v0.0.0-b50155e"
+      "system_version": "interuss/monitoring/v0.0.0-b926b65"
     }
   },
   "artifact_configuration": "scd"
