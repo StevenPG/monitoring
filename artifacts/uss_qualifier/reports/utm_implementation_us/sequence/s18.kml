@@ -118,38 +118,53 @@
       </PolyStyle>
     </Style>
     <Folder>
-      <name>ASTM SCD DSS: USS Availability Synchronization</name>
+      <name>ASTM SCD DSS: Implicit Subscription handling</name>
       <Folder>
         <name>Setup</name>
         <Folder>
-          <name>Ensure test USS has Unknown availability</name>
+          <name>Ensure clean workspace</name>
         </Folder>
       </Folder>
       <Folder>
-        <name>USS Availability synchronization</name>
+        <name>Single OIR implicit subscription is removed upon OIR deletion</name>
         <Folder>
-          <name>Update USS availability on primary DSS to Normal</name>
+          <name>Create an OIR with implicit subscription</name>
         </Folder>
         <Folder>
-          <name>Check Normal USS availability broadcast</name>
-        </Folder>
-        <Folder>
-          <name>Update USS Availability on primary DSS to Down</name>
-        </Folder>
-        <Folder>
-          <name>Check Down USS availability broadcast</name>
-        </Folder>
-        <Folder>
-          <name>Update USS availability on primary DSS to Unknown</name>
-        </Folder>
-        <Folder>
-          <name>Check Unknown USS availability broadcast</name>
+          <name>Delete the OIR with implicit subscription</name>
         </Folder>
       </Folder>
       <Folder>
-        <name>Unknown USS state is reported as Unknown</name>
+        <name>Implicit subscriptions always properly cover their OIR</name>
         <Folder>
-          <name>Query all DSS instances with an unknown USS identifier</name>
+          <name>Create an OIR with implicit subscription</name>
+        </Folder>
+        <Folder>
+          <name>Create an overlapping OIR without any subscription</name>
+        </Folder>
+        <Folder>
+          <name>Mutate OIR with implicit subscription to not overlap anymore</name>
+        </Folder>
+        <Folder>
+          <name>Create an OIR overlapping with the second OIR but not the first</name>
+        </Folder>
+      </Folder>
+      <Folder>
+        <name>Implicit subscriptions are properly deleted when required by OIR mutation</name>
+        <Folder>
+          <name>Ensure clean workspace</name>
+        </Folder>
+        <Folder>
+          <name>Create two OIRs with implicit subscription</name>
+        </Folder>
+        <Folder>
+          <name>Create a subscription</name>
+        </Folder>
+        <Folder>
+          <name>Update OIR with implicit subscription to use explicit subscription</name>
+        </Folder>
+        <Folder>
+          <name>Update OIR with implicit subscription to use no subscription</name>
         </Folder>
       </Folder>
       <Folder>
