@@ -1,19 +1,19 @@
 {
   "test_run_information": {
-    "test_run_id": "27a6a65309a9b3326b432315b0275aca6c2af4323a62705bf41fb3bc89387cf5",
-    "start_time": "2024-09-23 18:05:07 UTC",
-    "end_time": "2024-09-23 18:09:18 UTC",
-    "baseline": "5555a368ecf22de87cb16fcc6e3a953563f12f8bc146bbfdbc346973a39d2a8a",
+    "test_run_id": "64fcb28197ffabc788bdfd0947e2e98b1c5e7480bae0474bf8aff7cf888a4e00",
+    "start_time": "2024-09-24 10:00:36 UTC",
+    "end_time": "2024-09-24 10:04:47 UTC",
+    "baseline": "3ccdc0521d9601e9f7d7f28e7dc41bae8e214ffe97b1b3d3887b4cbba4a566c3",
     "environment": "a0f182ab1629efef05a42e075e5a673479fd2bb372c3799d6fbb0ce18f58628b"
   },
   "participant_verifications": {
     "uss1": {
       "status": "Incomplete",
-      "system_version": "interuss/monitoring/v0.0.0-b23afd6"
+      "system_version": "interuss/monitoring/v0.0.0-9c7934e"
     },
     "uss2": {
       "status": "Incomplete",
-      "system_version": "interuss/monitoring/v0.0.0-b23afd6"
+      "system_version": "interuss/monitoring/v0.0.0-9c7934e"
     }
   },
   "artifact_configuration": "requirements"
