@@ -118,53 +118,32 @@
       </PolyStyle>
     </Style>
     <Folder>
-      <name>ASTM SCD DSS: Implicit Subscription handling</name>
+      <name>ASTM SCD DSS: Operational Intent Reference Simple</name>
       <Folder>
         <name>Setup</name>
         <Folder>
           <name>Ensure clean workspace</name>
         </Folder>
-      </Folder>
-      <Folder>
-        <name>Single OIR implicit subscription is removed upon OIR deletion</name>
         <Folder>
-          <name>Create an OIR with implicit subscription</name>
-        </Folder>
-        <Folder>
-          <name>Delete the OIR with implicit subscription</name>
+          <name>Create an operational intent reference</name>
         </Folder>
       </Folder>
       <Folder>
-        <name>Implicit subscriptions always properly cover their OIR</name>
+        <name>Deletion requires correct OVN</name>
         <Folder>
-          <name>Create an OIR with implicit subscription</name>
+          <name>Attempt deletion with missing OVN</name>
         </Folder>
         <Folder>
-          <name>Create an overlapping OIR without any subscription</name>
-        </Folder>
-        <Folder>
-          <name>Mutate OIR with implicit subscription to not overlap anymore</name>
-        </Folder>
-        <Folder>
-          <name>Create an OIR overlapping with the second OIR but not the first</name>
+          <name>Attempt deletion with incorrect OVN</name>
         </Folder>
       </Folder>
       <Folder>
-        <name>Implicit subscriptions are properly deleted when required by OIR mutation</name>
+        <name>Mutation requires correct OVN</name>
         <Folder>
-          <name>Ensure clean workspace</name>
+          <name>Attempt mutation with missing OVN</name>
         </Folder>
         <Folder>
-          <name>Create two OIRs with implicit subscription</name>
-        </Folder>
-        <Folder>
-          <name>Create a subscription</name>
-        </Folder>
-        <Folder>
-          <name>Update OIR with implicit subscription to use explicit subscription</name>
-        </Folder>
-        <Folder>
-          <name>Update OIR with implicit subscription to use no subscription</name>
+          <name>Attempt mutation with incorrect OVN</name>
         </Folder>
       </Folder>
       <Folder>

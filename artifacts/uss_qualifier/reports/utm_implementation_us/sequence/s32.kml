@@ -118,11 +118,11 @@
       </PolyStyle>
     </Style>
     <Folder>
-      <name>ASTM SCD DSS: Report</name>
+      <name>Solo happy path</name>
       <Folder>
-        <name>DSS Report</name>
+        <name/>
         <Folder>
-          <name>Make valid DSS report</name>
+          <name>Cleanup</name>
         </Folder>
       </Folder>
     </Folder>
