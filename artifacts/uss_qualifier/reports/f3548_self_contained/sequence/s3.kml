@@ -168,6 +168,18 @@
         </Folder>
       </Folder>
       <Folder>
+        <name>Implicit subscriptions are expanded as needed</name>
+        <Folder>
+          <name>Ensure clean workspace</name>
+        </Folder>
+        <Folder>
+          <name>Create an OIR with implicit subscription</name>
+        </Folder>
+        <Folder>
+          <name>Expand the OIR while keeping the same implicit subscription</name>
+        </Folder>
+      </Folder>
+      <Folder>
         <name/>
         <Folder>
           <name>Cleanup</name>
